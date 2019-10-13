@@ -122,7 +122,7 @@ export default {
             };
           });
           // 2.2 本地数据同步
-          // setStore("shopCart", shopCart);
+          setStore("shopCart", shopCart);
           this.INIT_SHOP_CART();
         }
       }

@@ -73,6 +73,7 @@ export default {
     async initUserAddress() {
       if (this.userInfo.token) {
         // 处于登录状态
+        console.log(this.userInfo.token, 11111111111);
         let result = await getUserAddress(this.userInfo.token);
         console.log(result);
         if (result.success_code === 200) {
